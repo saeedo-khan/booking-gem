@@ -55,6 +55,7 @@ const CardItem = React.forwardRef<HTMLDivElement, PlaceListItemProps>(
             })}
             icon='solar:heart-bold'
             width={16}
+            data-testid='like-icon'
           />
         </Button>
         <Image
